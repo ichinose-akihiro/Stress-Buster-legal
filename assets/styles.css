@@ -108,6 +108,7 @@ button:focus-visible {
   font-size: 12px;
   color: var(--muted);
   letter-spacing: 0.04em;
+  min-height: 1.4em;
 }
 
 .nav {
