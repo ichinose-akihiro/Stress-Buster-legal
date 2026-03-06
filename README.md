@@ -1,10 +1,14 @@
 # Stress-Buster-legal
 
-Stress Buster の法務サイト用リポジトリです。GitHub Pages ではルートの `index.html` をそのまま配信する最小構成にしています。
+Stress Buster の法務サイト用リポジトリです。GitHub Pages ではルートの `index.html` を入口として、各法務文書を個別ページで配信する構成にしています。
 
 ## Files
 
-- `index.html`: プライバシーポリシー、利用規約、特商法表記をまとめた公開ページ
+- `index.html`: 法務サイトのホーム
+- `privacy.html`: プライバシーポリシー
+- `terms.html`: 利用規約
+- `tokusho.html`: 特定商取引法に基づく表記
+- `assets/styles.css`: 共通スタイル
 - `.nojekyll`: GitHub Pages の Jekyll 処理を無効化するためのファイル
 - `legal_app_summary.md`: 法務文面作成の前提資料
 
